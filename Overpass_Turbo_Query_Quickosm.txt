@@ -1,0 +1,60 @@
+[out:xml][timeout:25];
+(
+  // Green spaces
+  node["landuse"="grass"](around:1100,40.758,-73.9855);
+  way["landuse"="grass"](around:1100,40.758,-73.9855);
+  relation["landuse"="grass"](around:1100,40.758,-73.9855);
+  
+  node["natural"="island"](around:1100,40.758,-73.9855);
+  way["natural"="island"](around:1100,40.758,-73.9855);
+  relation["natural"="island"](around:1100,40.758,-73.9855);
+  
+  node["natural"="wood"](around:1100,40.758,-73.9855);
+  way["natural"="wood"](around:1100,40.758,-73.9855);
+  relation["natural"="wood"](around:1100,40.758,-73.9855);
+  
+  node["leisure"="park"](around:1100,40.758,-73.9855);
+  way["leisure"="park"](around:1100,40.758,-73.9855);
+  relation["leisure"="park"](around:1100,40.758,-73.9855);
+  
+  // Forest
+  node["landuse"="forest"](around:1100,40.758,-73.9855);
+  way["landuse"="forest"](around:1100,40.758,-73.9855);
+  relation["landuse"="forest"](around:1100,40.758,-73.9855);
+  
+  // Water
+  node["natural"="water"](around:1100,40.758,-73.9855);
+  way["natural"="water"](around:1100,40.758,-73.9855);
+  relation["natural"="water"](around:1100,40.758,-73.9855);
+  
+  node["natural"="bay"](around:1100,40.758,-73.9855);
+  way["natural"="bay"](around:1100,40.758,-73.9855);
+  relation["natural"="bay"](around:1100,40.758,-73.9855);
+  
+  // Parking and pedestrian areas
+  node["amenity"="parking"](around:1100,40.758,-73.9855);
+  way["amenity"="parking"](around:1100,40.758,-73.9855);
+  relation["amenity"="parking"](around:1100,40.758,-73.9855);
+  
+  node["highway"="pedestrian"](around:1100,40.758,-73.9855);
+  way["highway"="pedestrian"](around:1100,40.758,-73.9855);
+  
+  node["man_made"="pier"](around:1100,40.758,-73.9855);
+  way["man_made"="pier"](around:1100,40.758,-73.9855);
+  
+  // Streets
+  way["highway"="motorway"](around:1100,40.758,-73.9855);
+  way["highway"="trunk"](around:1100,40.758,-73.9855);
+  way["highway"="primary"](around:1100,40.758,-73.9855);
+  way["highway"="secondary"](around:1100,40.758,-73.9855);
+  way["highway"="tertiary"](around:1100,40.758,-73.9855);
+  way["highway"="residential"](around:1100,40.758,-73.9855);
+  way["highway"](around:1100,40.758,-73.9855);
+  
+  // Buildings
+  node["building"](around:1100,40.758,-73.9855);
+  way["building"](around:1100,40.758,-73.9855);
+  relation["building"](around:1100,40.758,-73.9855);
+);
+(._;>;);
+out body;
