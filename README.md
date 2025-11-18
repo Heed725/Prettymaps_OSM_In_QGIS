@@ -1,7 +1,7 @@
 # Prettymaps OSM in QGIS
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/qgis/QGIS/master/images/icons/qgis-icon-512x512.png" alt="QGIS Logo" width="150"/>
+  <img src="https://qgis.org/styleguide/visual/qgis-logo.svg" alt="QGIS Logo" width="200"/>
 </p>
 
 Create beautiful, artistic maps in QGIS using OpenStreetMap data with prettymaps-inspired styling. Transform any location worldwide into stunning cartographic visualizations.
