@@ -1,0 +1,111 @@
+[out:xml][timeout:25];
+(
+  // Green spaces - landuse=grass
+  node["landuse"="grass"](around:2800,40.785091,-73.968285);
+  way["landuse"="grass"](around:2800,40.785091,-73.968285);
+  relation["landuse"="grass"](around:2800,40.785091,-73.968285);
+  
+  // Green spaces - landuse=meadow
+  node["landuse"="meadow"](around:2800,40.785091,-73.968285);
+  way["landuse"="meadow"](around:2800,40.785091,-73.968285);
+  relation["landuse"="meadow"](around:2800,40.785091,-73.968285);
+  
+  // Green spaces - natural=island
+  node["natural"="island"](around:2800,40.785091,-73.968285);
+  way["natural"="island"](around:2800,40.785091,-73.968285);
+  relation["natural"="island"](around:2800,40.785091,-73.968285);
+  
+  // Green spaces - natural=wood
+  node["natural"="wood"](around:2800,40.785091,-73.968285);
+  way["natural"="wood"](around:2800,40.785091,-73.968285);
+  relation["natural"="wood"](around:2800,40.785091,-73.968285);
+  
+  // Green spaces - natural=scrub
+  node["natural"="scrub"](around:2800,40.785091,-73.968285);
+  way["natural"="scrub"](around:2800,40.785091,-73.968285);
+  relation["natural"="scrub"](around:2800,40.785091,-73.968285);
+  
+  // Green spaces - leisure=park
+  node["leisure"="park"](around:2800,40.785091,-73.968285);
+  way["leisure"="park"](around:2800,40.785091,-73.968285);
+  relation["leisure"="park"](around:2800,40.785091,-73.968285);
+  
+  // Forest - landuse=forest
+  node["landuse"="forest"](around:2800,40.785091,-73.968285);
+  way["landuse"="forest"](around:2800,40.785091,-73.968285);
+  relation["landuse"="forest"](around:2800,40.785091,-73.968285);
+  
+  // Forest - natural=tree_row
+  node["natural"="tree_row"](around:2800,40.785091,-73.968285);
+  way["natural"="tree_row"](around:2800,40.785091,-73.968285);
+  relation["natural"="tree_row"](around:2800,40.785091,-73.968285);
+  
+  // Water - natural=water
+  node["natural"="water"](around:2800,40.785091,-73.968285);
+  way["natural"="water"](around:2800,40.785091,-73.968285);
+  relation["natural"="water"](around:2800,40.785091,-73.968285);
+  
+  // Water - natural=bay
+  node["natural"="bay"](around:2800,40.785091,-73.968285);
+  way["natural"="bay"](around:2800,40.785091,-73.968285);
+  relation["natural"="bay"](around:2800,40.785091,-73.968285);
+  
+  // Water - water=pond
+  node["water"="pond"](around:2800,40.785091,-73.968285);
+  way["water"="pond"](around:2800,40.785091,-73.968285);
+  relation["water"="pond"](around:2800,40.785091,-73.968285);
+  
+  // Water - water=lake
+  node["water"="lake"](around:2800,40.785091,-73.968285);
+  way["water"="lake"](around:2800,40.785091,-73.968285);
+  relation["water"="lake"](around:2800,40.785091,-73.968285);
+  
+  // Water - water=reservoir
+  node["water"="reservoir"](around:2800,40.785091,-73.968285);
+  way["water"="reservoir"](around:2800,40.785091,-73.968285);
+  relation["water"="reservoir"](around:2800,40.785091,-73.968285);
+  
+  // Parking - amenity=parking
+  node["amenity"="parking"](around:2800,40.785091,-73.968285);
+  way["amenity"="parking"](around:2800,40.785091,-73.968285);
+  relation["amenity"="parking"](around:2800,40.785091,-73.968285);
+  
+  // Parking - highway=pedestrian
+  node["highway"="pedestrian"](around:2800,40.785091,-73.968285);
+  way["highway"="pedestrian"](around:2800,40.785091,-73.968285);
+  
+  // Parking - man_made=pier
+  node["man_made"="pier"](around:2800,40.785091,-73.968285);
+  way["man_made"="pier"](around:2800,40.785091,-73.968285);
+  
+  // Streets - motorway
+  way["highway"="motorway"](around:2800,40.785091,-73.968285);
+  
+  // Streets - trunk
+  way["highway"="trunk"](around:2800,40.785091,-73.968285);
+  
+  // Streets - primary
+  way["highway"="primary"](around:2800,40.785091,-73.968285);
+  
+  // Streets - secondary
+  way["highway"="secondary"](around:2800,40.785091,-73.968285);
+  
+  // Streets - tertiary
+  way["highway"="tertiary"](around:2800,40.785091,-73.968285);
+  
+  // Streets - residential
+  way["highway"="residential"](around:2800,40.785091,-73.968285);
+  
+  // Streets - footway
+  way["highway"="footway"](around:2800,40.785091,-73.968285);
+  
+  // Streets - path
+  way["highway"="path"](around:2800,40.785091,-73.968285);
+  
+  // Buildings
+  node["building"](around:2800,40.785091,-73.968285);
+  way["building"](around:2800,40.785091,-73.968285);
+  relation["building"](around:2800,40.785091,-73.968285);
+);
+(._;>;);
+out body;
