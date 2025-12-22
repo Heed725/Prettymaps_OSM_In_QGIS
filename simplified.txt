@@ -1,0 +1,37 @@
+[out:xml][timeout:25];
+(
+  /* Buildings */
+  node["building"](around:2800,-22.9068,-43.1729);
+  way["building"](around:2800,-22.9068,-43.1729);
+  relation["building"](around:2800,-22.9068,-43.1729);
+
+  /* Railways */
+  node["railway"](around:2800,-22.9068,-43.1729);
+  way["railway"](around:2800,-22.9068,-43.1729);
+  relation["railway"](around:2800,-22.9068,-43.1729);
+
+  /* Landuse: Forest */
+  node["landuse"="forest"](around:2800,-22.9068,-43.1729);
+  way["landuse"="forest"](around:2800,-22.9068,-43.1729);
+  relation["landuse"="forest"](around:2800,-22.9068,-43.1729);
+
+  /* Landuse: Grass */
+  node["landuse"="grass"](around:2800,-22.9068,-43.1729);
+  way["landuse"="grass"](around:2800,-22.9068,-43.1729);
+  relation["landuse"="grass"](around:2800,-22.9068,-43.1729);
+
+  /* Leisure: Park */
+  node["leisure"="park"](around:2800,-22.9068,-43.1729);
+  way["leisure"="park"](around:2800,-22.9068,-43.1729);
+  relation["leisure"="park"](around:2800,-22.9068,-43.1729);
+
+  /* Highways (all types) */
+  way["highway"](around:2800,-22.9068,-43.1729);
+
+  /* Natural: Water */
+  node["natural"="water"](around:2800,-22.9068,-43.1729);
+  way["natural"="water"](around:2800,-22.9068,-43.1729);
+  relation["natural"="water"](around:2800,-22.9068,-43.1729);
+);
+(._;>;);
+out body;
