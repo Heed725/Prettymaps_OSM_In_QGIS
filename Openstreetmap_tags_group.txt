@@ -57,7 +57,14 @@ amenity=hospital
 amenity=school
 amenity=university
 
+//Retail
+landuse=retail
 
+//Industrial
+landuse=industrial
+
+//Military
+landuse=military
 
 
 
