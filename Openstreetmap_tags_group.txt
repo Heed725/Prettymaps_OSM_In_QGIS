@@ -4,6 +4,13 @@ natural=wood
 leisure=park
 landuse=recreationground
 landuse=cemetery
+leisure=sports_pitch
+leisure=playground
+leisure=runtrack
+leisure=pitch
+natural=scrubs
+leisure=garden
+landuse-meadow
 
 //Forest
 landuse=forest
@@ -14,6 +21,10 @@ natural=bay
 landuse=basin
 natural=wetland
 leisure=swimming_pool
+landuse=reservour
+waterways=rivers
+waterways=ditch
+waterways=drain
 
 //Parking
 amenity=parking
@@ -26,6 +37,7 @@ natural=beaches
 
 //Farmland
 landuse=farmland
+landuse=farmyard
 
 //Buildings
 buildings=*
@@ -37,6 +49,13 @@ highway=primary
 highway=secondary
 highway=teritiary
 highway=residential
+highway=track
+highway=path
+
+//Main Amenities
+amenity=hospital
+amenity=school
+amenity=university
 
 
 
