@@ -1,0 +1,28 @@
+[out:xml][timeout:60];
+
+(
+  nwr["landuse"="grass"](around:2800,40.785091,-73.968285);
+  nwr["landuse"="meadow"](around:2800,40.785091,-73.968285);
+  nwr["natural"="island"](around:2800,40.785091,-73.968285);
+  nwr["natural"="wood"](around:2800,40.785091,-73.968285);
+  nwr["natural"="scrub"](around:2800,40.785091,-73.968285);
+  nwr["leisure"="park"](around:2800,40.785091,-73.968285);
+  nwr["landuse"="forest"](around:2800,40.785091,-73.968285);
+  nwr["natural"="tree_row"](around:2800,40.785091,-73.968285);
+
+  nwr["natural"="water"](around:2800,40.785091,-73.968285);
+  nwr["natural"="bay"](around:2800,40.785091,-73.968285);
+  nwr["water"~"pond|lake|reservoir"](around:2800,40.785091,-73.968285);
+
+  nwr["amenity"="parking"](around:2800,40.785091,-73.968285);
+  nwr["highway"="pedestrian"](around:2800,40.785091,-73.968285);
+  nwr["man_made"="pier"](around:2800,40.785091,-73.968285);
+
+  way["highway"~"motorway|trunk|primary|secondary|tertiary|residential|footway|path"]
+    (around:2800,40.785091,-73.968285);
+
+  nwr["building"](around:2800,40.785091,-73.968285);
+);
+
+(._;>;);
+out body;
